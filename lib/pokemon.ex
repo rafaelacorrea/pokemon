@@ -42,5 +42,4 @@ defmodule Pokemon do
       |> List.first()
     end)
   end
-
 end
