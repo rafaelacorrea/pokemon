@@ -1,4 +1,8 @@
 defmodule Pokemon do
+
+  @behaviour ClientPokemon
+
+  @impl ClientPokemon
   def get_pokemon(pokemon) do
     pokemon = URI.encode(pokemon)
 
@@ -36,10 +40,7 @@ defmodule Pokemon do
   defp get_abilities(abilities) do
     abilities
     |> Enum.map(fn abilities ->
-      Enum.map(abilities, fn {_k, v} -> v end)
-      |> List.first()
-      |> Enum.map(fn {_k, v} -> v end)
-      |> List.first()
+      abilities["ability"]["name"]
     end)
   end
 end

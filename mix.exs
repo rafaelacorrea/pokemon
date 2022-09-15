@@ -22,7 +22,8 @@ defmodule Pokemon.MixProject do
   defp deps do
     [
       {:httpoison, "~> 1.0"},
-      {:json, "~> 1.4.0"}
+      {:json, "~> 1.4.0"},
+      {:mox, "~> 1.0", only: :test}
     ]
   end
 end
