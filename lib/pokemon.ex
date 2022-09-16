@@ -1,4 +1,7 @@
 defmodule Pokemon do
+  @moduledoc """
+  This module return infos of a inserted pokemon.
+  """
   @behaviour ClientPokemon
 
   @impl ClientPokemon

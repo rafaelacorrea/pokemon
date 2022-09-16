@@ -32,7 +32,7 @@ defmodule Pokemon.MixProject do
       {:httpoison, "~> 1.0"},
       {:json, "~> 1.4.0"},
       {:mox, "~> 1.0", only: :test},
-      {:credo, "~> 1.5.6", only: [:dev, :test], runtime: false},
+      {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
       {:excoveralls, "~> 0.10", only: :test}
     ]
   end
