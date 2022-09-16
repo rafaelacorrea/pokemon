@@ -1,5 +1,4 @@
 defmodule Pokemon do
-
   @behaviour ClientPokemon
 
   @impl ClientPokemon
