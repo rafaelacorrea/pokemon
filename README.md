@@ -1,5 +1,8 @@
 # Pokemon
 
+[![Continuous Integration](https://github.com/rafaelacorrea/pokemon/actions/workflows/ci.yml/badge.svg)](https://github.com/rafaelacorrea/pokemon/actions/workflows/ci.yml)
+
+
 It is a app used to return the infos of a pokemon.
 
 ## Installation
